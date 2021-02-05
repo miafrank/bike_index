@@ -91,6 +91,7 @@ gem "wine_bouncer"
 # Secure things
 gem "rack-throttle"
 gem "secure_headers", "~> 2.5.0"
+gem "active_model_otp"
 
 # Frontend
 gem "jquery-rails" # Javascript framework?
