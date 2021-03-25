@@ -1,5 +1,6 @@
 FactoryBot.define do
   sequence :unique_email do |n|
+    # generate random number so it doesn't repeat
     "user#{n}s@bikeiasdndex.org"
   end
 
