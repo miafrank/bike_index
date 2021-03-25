@@ -6,7 +6,6 @@ class User < ApplicationRecord
   cattr_accessor :current_user
 
   has_secure_password
-  has_one_time_password
 
   attr_accessor :my_bikes_link_target, :my_bikes_link_title, :current_password
   # stripe_id, is_paid_member, paid_membership_info
